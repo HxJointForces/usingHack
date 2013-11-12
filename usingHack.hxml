@@ -1,0 +1,4 @@
+-cp src/main
+-cp src/test
+-neko bin/usingHack.n
+-main Tests

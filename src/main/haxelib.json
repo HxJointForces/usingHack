@@ -1,0 +1,10 @@
+{
+  "name": "usingHack",
+  "url": "https://github.com/HxJointForces/usingHack",
+  "license": "MIT",
+  "tags": [ "macro", "HxJointForces" ],
+  "description": "Old style using + macro behaviour",
+  "version": "1.0.0",
+  "releasenote": "",
+  "contributors": [ "hxJointForces" ]
+}
