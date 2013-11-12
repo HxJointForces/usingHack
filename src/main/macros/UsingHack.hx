@@ -12,7 +12,7 @@ class UsingHack {
 
 	static public inline function fixExpr(expr:Expr):Expr {
 		switch (expr.expr) {
-			case EMeta(_, _):
+			case EMeta({name:":this"}, {expr:EConst(CIdent("this"))}):
 				var pos = expr.pos;
 				var posInfo = Context.getPosInfos(pos);
 				

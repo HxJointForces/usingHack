@@ -13,7 +13,9 @@ class UsingMacro
 {
 
 	macro static public function a(expr:Expr):Expr {
+		//trace(expr);
 		var e = UsingHack.fixExpr(expr);
+		//trace(e);
 		var res = Std.string(e.expr);
 		return macro $v{res};
 	}
